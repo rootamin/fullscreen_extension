@@ -8,7 +8,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://rootamin.github.io/*"],
+      "matches": ["*://rootamin.github.io/satellite/*"],
       "js": ["content.js"]
     }
   ]
