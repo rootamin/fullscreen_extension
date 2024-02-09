@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Fullscreen Extension",
+  "version": "1.0",
+  "permissions": ["tabs", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://rootamin.github.io/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
